@@ -1,10 +1,17 @@
 [project]
 name = "Lagents"
 version = "0.1.0"
-dependencies = [""]
+dependencies = [
+    "groq",
+    "ipython",
+    "python-dotenv",
+]
 
 [project.urls]
 Repository = "https://github.com/Arktetra/Lagents.git"
+
+[project.scripts]
+lagents = "lagents.__main__:main"
 
 [build-system]
 requires = ["setuptools"]
