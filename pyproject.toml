@@ -1,0 +1,17 @@
+[project]
+name = "Lagents"
+version = "0.1.0"
+dependencies = [""]
+
+[project.urls]
+Repository = "https://github.com/Arktetra/Lagents.git"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+ignore = ["E722", "E731", "F722"]
